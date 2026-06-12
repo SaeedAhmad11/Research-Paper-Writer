@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets & config
+.env
+.env.*
+*.key
+.streamlit/secrets.toml
+
+# Streamlit
+.streamlit/cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Generated outputs (uncomment to exclude)
+# paper_*.md
+# report_*.md
